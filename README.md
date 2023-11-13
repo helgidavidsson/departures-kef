@@ -17,4 +17,4 @@ API fyrirspurnir eru gerðar með `fetch` í React og gögnin eru sýnd í forri
 
 ## Deployment
 
-Verkefnið er hýst og keyrandi á Netlify. Þú getur skoðað lifandi útgáfu [hér]([Netlify URL]).
+Verkefnið er hýst og keyrandi á Netlify. Þú getur skoðað lifandi útgáfu hér: https://655242cad1f2a702d9b6b345--dulcet-meerkat-deb7c5.netlify.app/.
