@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import './App.css';
+
 
 function FlightTable() {
     const [ flights, setFlights ] = useState([])
@@ -24,14 +26,14 @@ function FlightTable() {
 
     return(
         <div>
-        <h1>Departures-KEF</h1>
-            <table className="tafla">
+        <h1>Departures-KEF ✈️</h1>
+            <table className="table">
                 <thead>
                   <tr>
                     <th>Brottför</th>
                     <th>Áfangastaður</th>
                     <th>Flugnúmer</th>
-                    {/* Add more headers as needed */}
+                   
                   </tr>
                 </thead>
                 <tbody>
@@ -40,7 +42,7 @@ function FlightTable() {
                       <td>{extractText(flight.date)}</td>
                       <td>{extractText(flight.flightNumber)}</td>
                       <td>{extractText(flight.airline)}</td>
-                      {/* Add more data cells as needed */}
+                    
                     </tr>
                   ))}
                 </tbody>
